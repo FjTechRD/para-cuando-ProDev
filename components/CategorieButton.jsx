@@ -1,9 +1,7 @@
-import React from 'react';
-
 const CategorieButton = () => {
   return (
     <select>
-      <option value="">Categorie Button</option>
+      <option value="">Categorie</option>
     </select>
   );
 };

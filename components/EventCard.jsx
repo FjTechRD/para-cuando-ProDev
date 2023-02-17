@@ -1,5 +1,3 @@
-import React from 'react';
-
 const EventCard = () => {
   return (
     <article className="event__card">
@@ -14,7 +12,7 @@ const EventCard = () => {
         </p>
       </div>
       <div className="footer__card">
-        <a href=""></a>
+        <a href="">Enlace de Destino</a>
         <div>
           <img src="" alt="" />
           <p>vte count</p>

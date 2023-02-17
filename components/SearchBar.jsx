@@ -1,9 +1,9 @@
+import React from 'react';
+
 const SearchBar = () => {
   return (
-    <div>
-      <input type="text" placeholder="¿Que quieres ver en tu ciudad?">
-        {' '}
-      </input>
+    <div className="search__bar">
+      <input type="text" placeholder="" />
     </div>
   );
 };
