@@ -1,6 +1,5 @@
 import CategorieButton from '../components/CategorieButton';
 import EventCard from '../components/EventCard';
-import LikeButton from '../components/LikeButton';
 import MainButton from '../components/MainButton';
 import SearchBar from '../components/SearchBar';
 
@@ -11,7 +10,6 @@ export default function Home() {
       <SearchBar />
       <CategorieButton />
       <MainButton />
-      <LikeButton />
       <EventCard />
     </div>
   );

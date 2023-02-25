@@ -7,16 +7,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'app-blue': '#1B4DB1',
-        'app-yellow': '#F3F234',
-        'app-pink': '#FF64BC',
-        'app-black': '#000000',
-        'app-blackLight': '#1A1E2E',
-        'app-grayDark': '#6E6A6C',
-        'app-gray': '#A7A6A7',
-        'app-grayLight': '#D9D9D9',
-        'app-grayLighter': '#F8F7FA',
-        'app-red': '#EF3F47 ',
+        appBlue: '#1B4DB1',
+        appYellow: '#F3F234',
+        appPink: '#FF64BC',
+        appBlack: '#000000',
+        appBlackLight: '#1A1E2E',
+        appGrayDark: '#6E6A6C',
+        appGray: '#A7A6A7',
+        appGrayLight: '#D9D9D9',
+        appGrayLighter: '#F8F7FA',
+        appred: '#EF3F47 ',
       },
       screens: {
         xs: '375px',
