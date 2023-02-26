@@ -11,7 +11,9 @@ const EventCard = () => {
           key={i}
         >
           <article className="card__header relative">
-            <img src={data.img} alt="Imagen del concierto" />
+            <picture>
+              <img src={data.img} alt="Imagen del concierto" />
+            </picture>
             <LikeButton />
           </article>
           <div className="p-1">

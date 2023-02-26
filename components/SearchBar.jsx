@@ -1,13 +1,13 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
 
 const SearchBar = () => {
-  const [searchInput, setSearchInput] = useState('');
+  // const [searchInput, setSearchInput] = useState('');
 
   const handleSearchClick = (e) => {
     e.preventDefault();
-    setSearchInput(e.target.searchBarInput.value);
-    setSearchInput('');
+    // setSearchInput(e.target.searchBarInput.value);
+    // setSearchInput('');
   };
 
   return (

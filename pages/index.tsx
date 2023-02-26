@@ -1,6 +1,7 @@
 import CategorieButton from '../components/CategorieButton';
 import EventCard from '../components/EventCard';
 import MainButton from '../components/MainButton';
+import NextArrow from '../components/NextArrow';
 import SearchBar from '../components/SearchBar';
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <SearchBar />
       <CategorieButton />
       <MainButton />
+      <NextArrow />
       <EventCard />
     </div>
   );
